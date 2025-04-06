@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIEffect", "UIEffect.csproj", "{405348d4-5caf-54e8-4a53-080e7561d41a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIEffect", "UIEffect.Player.csproj", "{35f9fb3b-cdef-ef56-b25f-245a02634bd5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ec91b29e-b583-f6f8-f49a-31f8ce460f50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{405348d4-5caf-54e8-4a53-080e7561d41a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405348d4-5caf-54e8-4a53-080e7561d41a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35f9fb3b-cdef-ef56-b25f-245a02634bd5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35f9fb3b-cdef-ef56-b25f-245a02634bd5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ec91b29e-b583-f6f8-f49a-31f8ce460f50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ec91b29e-b583-f6f8-f49a-31f8ce460f50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
