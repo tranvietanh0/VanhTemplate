@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638795535144571885
-    m_Hash: 4159587757
+      ticks: 638796401481575325
+    m_Hash: 426724372
   m_LockFileStatus:
     m_FilePath: E:/AssetGame/VanhTemplate/HyperCasualGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638795535144631138
-    m_Hash: 2089906509
+      ticks: 638796401492237621
+    m_Hash: 1061084076
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -101,6 +101,190 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 
     minimumUnityVersion: 2020.3.0a1
+- packageId: com.cysharp.r3@https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.0
+  source: 5
+  resolvedPath: E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.cysharp.r3
+  assetPath: Packages/com.cysharp.r3
+  name: com.cysharp.r3
+  displayName: R3
+  author:
+    name: Cysharp, Inc.
+    email: 
+    url: https://cysharp.co.jp/en/
+  category: Scripting
+  type: 
+  description: Reactive Extensions for Unity.
+  errors: []
+  versions:
+    all:
+    - 0.1.1
+    - 0.1.2
+    - 0.1.3
+    - 0.1.4
+    - 0.1.5
+    - 0.1.6
+    - 0.1.7
+    - 0.1.8
+    - 0.1.9
+    - 0.1.10
+    - 0.1.11
+    - 0.1.12
+    - 0.1.13
+    - 0.1.15
+    - 0.1.16
+    - 0.1.17
+    - 0.1.18
+    - 0.1.19
+    - 0.1.20
+    - 0.1.21
+    - 0.1.22
+    - 0.1.23
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.7
+    - 1.1.8
+    - 1.1.9
+    - 1.1.10
+    - 1.1.11
+    - 1.1.12
+    - 1.1.13
+    - 1.1.14
+    - 1.1.15
+    - 1.1.16
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.8
+    - 1.2.9
+    - 1.3.0
+    compatible:
+    - 0.1.1
+    - 0.1.2
+    - 0.1.3
+    - 0.1.4
+    - 0.1.5
+    - 0.1.6
+    - 0.1.7
+    - 0.1.8
+    - 0.1.9
+    - 0.1.10
+    - 0.1.11
+    - 0.1.12
+    - 0.1.13
+    - 0.1.15
+    - 0.1.16
+    - 0.1.17
+    - 0.1.18
+    - 0.1.19
+    - 0.1.20
+    - 0.1.21
+    - 0.1.22
+    - 0.1.23
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.7
+    - 1.1.8
+    - 1.1.9
+    - 1.1.10
+    - 1.1.11
+    - 1.1.12
+    - 1.1.13
+    - 1.1.14
+    - 1.1.15
+    - 1.1.16
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.8
+    - 1.2.9
+    - 1.3.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - rx
+  - event
+  - Scripting
+  registry:
+    id: scoped:project:openupm
+    name: openupm
+    url: https://package.openupm.com
+    scopes:
+    - jp.hadashikick.vcontainer
+    - org.nuget
+    - com.cysharp
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 6af3cc5c1941fe21bfe0fe3472f2c2dfaa881469
+    revision: HEAD
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 479314dac88fbcef87b357af2b98e7922939c0a5
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 0.1.1
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
   testable: 0
   isDirectDependency: 1
@@ -119,8 +303,138 @@ m_ResolvedPackages:
   description: Provides an efficient async/await integration to Unity.
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.2.0
+    - 1.3.0
+    - 1.3.1
+    - 2.0.1-preview2
+    - 2.0.2-preview3
+    - 2.0.3-preview4
+    - 2.0.4-rc1
+    - 2.0.5-rc2
+    - 2.0.6-rc3
+    - 2.0.7-rc4
+    - 2.0.8-rc5
+    - 2.0.9-rc6
+    - 2.0.10-rc7
+    - 2.0.11-rc8
+    - 2.0.12-rc9
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.19
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
+    - 2.0.23
+    - 2.0.24
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
+    - 2.0.28
+    - 2.0.30
+    - 2.0.31
+    - 2.0.32
+    - 2.0.33
+    - 2.0.34
+    - 2.0.35
+    - 2.0.36
+    - 2.0.37
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.3.0
+    - 2.3.1
+    - 2.3.2
+    - 2.3.3
+    - 2.4.0
+    - 2.4.1
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4
+    - 2.5.5
+    - 2.5.6
+    - 2.5.7
+    - 2.5.8
+    - 2.5.9
+    - 2.5.10
+    compatible:
+    - 1.2.0
+    - 1.3.0
+    - 1.3.1
+    - 2.0.1-preview2
+    - 2.0.2-preview3
+    - 2.0.3-preview4
+    - 2.0.4-rc1
+    - 2.0.5-rc2
+    - 2.0.6-rc3
+    - 2.0.7-rc4
+    - 2.0.8-rc5
+    - 2.0.9-rc6
+    - 2.0.10-rc7
+    - 2.0.11-rc8
+    - 2.0.12-rc9
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.19
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
+    - 2.0.23
+    - 2.0.24
+    - 2.0.25
+    - 2.0.26
+    - 2.0.27
+    - 2.0.28
+    - 2.0.30
+    - 2.0.31
+    - 2.0.32
+    - 2.0.33
+    - 2.0.34
+    - 2.0.35
+    - 2.0.36
+    - 2.0.37
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.3.0
+    - 2.3.1
+    - 2.3.2
+    - 2.3.3
+    - 2.4.0
+    - 2.4.1
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4
+    - 2.5.5
+    - 2.5.6
+    - 2.5.7
+    - 2.5.8
+    - 2.5.9
+    - 2.5.10
     recommended: 
     deprecated: []
   dependencies: []
@@ -131,13 +445,16 @@ m_ResolvedPackages:
   - Task
   - UniTask
   registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
+    id: scoped:project:openupm
+    name: openupm
+    url: https://package.openupm.com
+    scopes:
+    - jp.hadashikick.vcontainer
+    - org.nuget
+    - com.cysharp
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -165,6 +482,72 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 6a18b5d4ef81a010c360c4aaa59db594cd45849e
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.2.0
+    minimumUnityVersion: 2018.4.0a1
+- packageId: com.github-glitchenzo.nugetforunity@https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
+  testable: 0
+  isDirectDependency: 1
+  version: 4.3.0
+  source: 5
+  resolvedPath: E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.github-glitchenzo.nugetforunity
+  assetPath: Packages/com.github-glitchenzo.nugetforunity
+  name: com.github-glitchenzo.nugetforunity
+  displayName: NuGetForUnity
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A NuGet Package Manager for Unity
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - nuget
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://github.com/GlitchEnzo/NuGetForUnity
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: fe31ad0904abee296b5ea72c6073157accba59e8
+    revision: HEAD
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: ef15a3e52483731c9dde171b8ed081ced97c326b
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 
@@ -1224,6 +1607,8 @@ m_ResolvedPackages:
     url: https://package.openupm.com
     scopes:
     - jp.hadashikick.vcontainer
+    - org.nuget
+    - com.cysharp
     isDefault: 0
     capabilities: 0
     configSource: 4

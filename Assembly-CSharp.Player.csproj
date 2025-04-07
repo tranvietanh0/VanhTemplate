@@ -46,11 +46,28 @@
     <Analyzer Include="E:\Program Files\Unity\Hub\Editor\2022.3.33f1\6000.0.27f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameFoundation\IDependencyInjection.cs" />
     <Compile Include="Assets\Scripts\Scenes\Loading\LoadingSceneScope.cs" />
+    <Compile Include="Assets\Scripts\Scenes\Main\MainSceneScope.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\Signal\SignalBusVContainer.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\AssetLibrary\GameAsset.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\IDependencyInjection.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\ITickable.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\IFixedTickable.cs" />
     <Compile Include="Assets\Scripts\GameLifetimeScope.cs" />
-    <Compile Include="Assets\GameFoundation\DIExtension.cs" />
-    <Compile Include="Assets\GameFoundation\DI\SceneScope.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\IInitializable.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\VContainer\VContainerWrapper.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\UIModule\MVP\IUIView.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\AssetLibrary\LoadAssetsByLabelOperation.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\VContainer\VContainerAdapter.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\VContainer\SceneScope.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\UIModule\MVP\IUIModel.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\ILateDisposable.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\ILateTickable.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\UIModule\MVP\IUIPresenter.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\Signal\SignalBus.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\DI\DIExtension.cs" />
+    <Compile Include="Assets\GameFoundation\Scripts\UIModule\MVP\BaseUIItemPresenter.cs" />
+    <Compile Include="Assets\GameFoundation\GameFoundationVContainer.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Program Files\Unity\Hub\Editor\2022.3.33f1\6000.0.27f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
@@ -270,11 +287,38 @@
     <Reference Include="nunit.framework">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Coffee.UIEffect.R">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.coffee.ui-effect\Runtime\Coffee.UIEffect.R.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Coffee.UIEffect.R">
-      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\PackageCache\com.coffee.ui-effect\Runtime\Coffee.UIEffect.R.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.TimeProvider">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\Microsoft.Bcl.TimeProvider.8.0.0\lib\netstandard2.0\Microsoft.Bcl.TimeProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="R3">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\R3.1.3.0\lib\netstandard2.1\R3.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\System.ComponentModel.Annotations.5.0.0\lib\netstandard2.1\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="Sylvan.Data.Csv">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\Sylvan.Data.Csv.1.4.1\lib\netstandard2.1\Sylvan.Data.Csv.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagePipe">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\MessagePipe.1.8.1\lib\netstandard2.0\MessagePipe.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Program Files\Unity\Hub\Editor\2022.3.33f1\6000.0.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -648,6 +692,9 @@
     <Reference Include="VContainer">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\VContainer.dll</HintPath>
     </Reference>
+    <Reference Include="R3.Unity">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\R3.Unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Profiling.Core">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
     </Reference>
@@ -659,6 +706,9 @@
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="R3.Unity.TextMeshPro">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\R3.Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.TextMeshPro">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
@@ -684,11 +734,11 @@
     <Reference Include="Coffee.UIEffect">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Coffee.UIEffect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Addressables">
-      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.DOTween">
       <HintPath>E:\AssetGame\VanhTemplate\HyperCasualGame\Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>

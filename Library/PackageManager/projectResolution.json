@@ -16,12 +16,28 @@
       "version": "5.5.3",
       "source": "git"
     },
+    "com.cysharp.r3@https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity": {
+      "name": "com.cysharp.r3",
+      "resolvedPath": "E:\\AssetGame\\VanhTemplate\\HyperCasualGame\\Library\\PackageCache\\com.cysharp.r3",
+      "fingerprint": "479314dac88fbcef87b357af2b98e7922939c0a5",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.0",
+      "source": "git"
+    },
     "com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask": {
       "name": "com.cysharp.unitask",
       "resolvedPath": "E:\\AssetGame\\VanhTemplate\\HyperCasualGame\\Library\\PackageCache\\com.cysharp.unitask",
       "fingerprint": "6a18b5d4ef81a010c360c4aaa59db594cd45849e",
       "editorCompatibility": "2018.4.0a1",
       "version": "2.5.10",
+      "source": "git"
+    },
+    "com.github-glitchenzo.nugetforunity@https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity": {
+      "name": "com.github-glitchenzo.nugetforunity",
+      "resolvedPath": "E:\\AssetGame\\VanhTemplate\\HyperCasualGame\\Library\\PackageCache\\com.github-glitchenzo.nugetforunity",
+      "fingerprint": "ef15a3e52483731c9dde171b8ed081ced97c326b",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "4.3.0",
       "source": "git"
     },
     "com.unity.addressables.android@1.0.6": {
